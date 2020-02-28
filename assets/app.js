@@ -46,6 +46,4 @@ $win.on("scroll", function() {
 	if ($win.scrollTop() > $onScroll)
 		$nav.addClass("fixed");
 
-	console.log($fixedNav);
-	console.log($navHeight);
 });
